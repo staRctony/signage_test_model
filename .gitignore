@@ -1,12 +1,5 @@
 
 # Model weights and checkpoints
-*.pt
-*.onnx
-*.engine
-*.tflite
-*.zip
-*.tar
-*.weights
 
 # Video and image data
 *.mp4
