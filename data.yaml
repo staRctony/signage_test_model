@@ -1,0 +1,12 @@
+train: /Users/sudhir/Desktop/NJDOT/Model/US Road Signs.v1i.yolov8/train/images
+val: /Users/sudhir/Desktop/NJDOT/Model/US Road Signs.v1i.yolov8/train/images
+test: /Users/sudhir/Desktop/NJDOT/Model/US Road Signs.v1i.yolov8/train/images
+nc: 3
+names: ['regulatory', 'stop', 'warning']
+
+roboflow:
+  workspace: signage
+  project: us-road-signs-9xtlj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/signage/us-road-signs-9xtlj/dataset/1

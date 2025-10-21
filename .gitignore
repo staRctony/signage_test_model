@@ -1,0 +1,37 @@
+
+# Model weights and checkpoints
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.zip
+*.tar
+*.weights
+
+# Video and image data
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# YOLO output directories
+runs/
+datasets/
+outputs/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+Signage_env/
+.env/
+.venv/
+
+# OS files
+.DS_Store
+
+

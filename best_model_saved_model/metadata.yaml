@@ -1,0 +1,23 @@
+description: Ultralytics best_model model trained on /Users/sudhir/Desktop/NJDOT/Model/US
+  Road Signs.v1i.yolov8/data.yaml
+author: Ultralytics
+date: '2025-10-20T19:58:43.062507'
+version: 8.3.217
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: regulatory
+  1: stop
+  2: warning
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
+channels: 3
