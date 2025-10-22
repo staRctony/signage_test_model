@@ -9,17 +9,18 @@ runs/
 
 # Cache and temporary files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+**/*.pyc
+**/*.pyo
+**/*.pyd
 
-# Python environment files
+# Python and virtual environment files
 venv/
 env/
+Signage_env/
 *.env
 *.env.local
 .envrc
-Signage_env/
+
 # OS generated files
 .DS_Store
 Thumbs.db
@@ -34,10 +35,6 @@ Thumbs.db
 *.log
 output/
 debug/
-
-# Virtual environment
-env/
-venv/
 
 # TensorFlow/TFLite artifacts
 *.tflite
@@ -56,10 +53,17 @@ test/
 README.roboflow.txt
 yolov8n.pt
 
-# Ignore large or generated files
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Large or generated files
 *.zip
 *.tar.gz
 *.rar
 
-# Ignore user-specific files
+# Ignore user-specific and notebook files
 *.iml
+.ipynb_checkpoints/
